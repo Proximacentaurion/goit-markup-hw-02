@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #F5F4FA;
+    color:#070707;   
+}
+h1{
+    font-family:sans-serif;
+    color:#070707; 
+}
+h2{
+    font-family:sans-serif;
+    color:#070707; 
+}
+h3{
+    font-family:sans-serif;
+    color:#070707; 
+}
+
+section ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  section ul li {
+    flex-basis: calc(33.33% - 20px);
+  }
+
+/*Para quitar las viñetas de las imagenes*/
+  ul, ol {
+    list-style: none;
+  }
+
+
+  /*Para que el menú de la barra de navegación se vea más ordenado*/
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
