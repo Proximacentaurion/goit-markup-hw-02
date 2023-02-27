@@ -17,29 +17,44 @@ h3{
     color:#070707; 
 }
 
-section ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  
-  section ul li {
-    flex-basis: calc(33.33% - 20px);
-  }
-
 /*Para quitar las viñetas de las imagenes*/
   ul, ol {
     list-style: none;
   }
 
-
   /*Para que el menú de la barra de navegación se vea más ordenado*/
-  header {
+  .mi {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
+
+
   }
+  .A-que ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .A-que li {
+    flex-basis: calc(0% - 0px);
+    margin: 0 23px;
+  }
+  
+  .A-que {
+    margin-left: 20px; /* ajusta el valor según lo que necesites */
+    margin-right: 20px; /* ajusta el valor según lo que necesites */
+ }
+
+
+.nuestro-equipo ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.nuestro-equipo li {
+  flex-basis: calc(0% - 0px);
+  margin: 0 20px;
+}
+
+.nuestro-equipo {
+  margin-left: 20px; /* ajusta el valor según lo que necesites */
+  margin-right: 20px; /* ajusta el valor según lo que necesites */
+}
