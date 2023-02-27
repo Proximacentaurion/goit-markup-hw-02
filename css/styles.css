@@ -10,26 +10,37 @@ h1{
 }
 h2{
     font-family:sans-serif;
-    color:#070707; 
+    color:#070707;
+    text-align: center;
 }
 h3{
     font-family:sans-serif;
     color:#070707; 
 }
 
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;s
+}
+
+li{
+  margin-right: 20px;
+}
+
+
+
 /*Para quitar las viñetas de las imagenes*/
   ul, ol {
     list-style: none;
   }
 
-  /*Para que el menú de la barra de navegación se vea más ordenado*/
-  .mi {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-
-  }
   .A-que ul {
     display: flex;
     flex-wrap: wrap;
@@ -39,9 +50,9 @@ h3{
     margin: 0 23px;
   }
   
-  .A-que {
-    margin-left: 20px; /* ajusta el valor según lo que necesites */
-    margin-right: 20px; /* ajusta el valor según lo que necesites */
+.A-que {
+    margin-left: 20px; 
+    margin-right: 20px; 
  }
 
 
@@ -51,10 +62,10 @@ h3{
 }
 .nuestro-equipo li {
   flex-basis: calc(0% - 0px);
-  margin: 0 20px;
+  margin: 0 23px;
 }
 
 .nuestro-equipo {
-  margin-left: 20px; /* ajusta el valor según lo que necesites */
-  margin-right: 20px; /* ajusta el valor según lo que necesites */
+  margin-left: 20px; 
+  margin-right: 20px; 
 }
