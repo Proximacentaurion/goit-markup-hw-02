@@ -23,7 +23,14 @@ nav {
   align-items: center;
 }
 
-nav ul{
+/*nav ul{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;s
+}*/
+
+#mi{
   display: flex;
   list-style: none;
   margin: 0;
@@ -33,7 +40,6 @@ nav ul{
 li{
   margin-right: 20px;
 }
-
 
 
 /*Para quitar las viñetas de las imagenes*/
