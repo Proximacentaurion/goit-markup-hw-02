@@ -1,9 +1,26 @@
 body{
-    margin:0;
-    padding:0;
-    background-color: #F5F4FA;
-    color:#070707;   
-}
+  color:#212121;
+  font-family:’Roboto’,sans-serif;
+  font-family:’Raleway’,sans-serif;
+  }
+  
+  nav{
+  display:flex;
+  padding:24px;
+  justify-content:space-between;
+  align-items:center;
+  }
+  
+  .logo{
+  color:#2196F3;
+  font-family:Raleway;
+  font-size:26px;
+  font-weight:700;
+  line-height:1.2;
+  text-decoration:none;
+  margin-right:93px;
+  }
+  
 h1{
     font-family:sans-serif;
     color:#070707; 
@@ -18,10 +35,10 @@ h3{
     color:#070707; 
 }
 
-nav {
+/*nav {
   display: flex;
   align-items: center;
-}
+}*/
 
 /*nav ul{
   display: flex;
@@ -38,7 +55,7 @@ nav {
 }
 
 li{
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 
@@ -53,12 +70,12 @@ li{
   }
   .A-que li {
     flex-basis: calc(0% - 0px);
-    margin: 0 23px;
+    margin: 0 13px;
   }
   
 .A-que {
-    margin-left: 20px; 
-    margin-right: 20px; 
+    margin-left: 10px; 
+    margin-right: 10px; 
  }
 
 
@@ -68,10 +85,10 @@ li{
 }
 .nuestro-equipo li {
   flex-basis: calc(0% - 0px);
-  margin: 0 23px;
+  margin: 0 13px;
 }
 
 .nuestro-equipo {
-  margin-left: 20px; 
-  margin-right: 20px; 
+  margin-left: 10px; 
+  margin-right: 10px; 
 }
