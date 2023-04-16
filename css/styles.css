@@ -4,14 +4,28 @@ body{
   font-family:’Raleway’,sans-serif;
   }
   
-  .barra{
+.barra{
   display:flex;
   padding:24px;
   justify-content:space-between;
   align-items:center;
-  }
+}
+
+
+.linkbarra:hover{
+  text-decoration: none; /* Remueve la línea de debajo del enlace */
+  border-bottom: 2px solid blue; /* Agrega una línea azul de 2 píxeles debajo del enlace */
+}
+
+.linkbarra a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.41px;
+  letter-spacing: 2%;
+}
   
-  .logo{
+.logo{
   color:#2196F3;
   font-family:Raleway;
   font-size:26px;
@@ -19,24 +33,37 @@ body{
   line-height:1.2;
   text-decoration:none;
   margin-right:93px;
-  }
+}
 
-  .linkbarra:hover{
-    color:#2196F3;
-  }
-  
-h1{
-    font-family:sans-serif;
-    color:#070707; 
+.fondo-negro {
+  background-color: #2F303A;
+  text-align: center;
 }
-h2{
-    font-family:sans-serif;
-    color:#070707;
-    text-align: center;
+
+.fondo-negro h1 {
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 6%;
+  margin-top: 0;
+  text-transform: uppercase;
 }
-h3{
-    font-family:sans-serif;
-    color:#070707; 
+
+footer {
+  background-color: #2F303A;
+  text-align: left;
+}
+
+footer a{
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  margin-top: 0;
 }
 
 /*nav {
@@ -51,12 +78,12 @@ h3{
   padding: 0;s
 }*/
 
-#mi{
+/*#mi{
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;s
-}
+}}*/
 
 li{
   margin-right: 10px;
@@ -64,23 +91,23 @@ li{
 
 
 /*Para quitar las viñetas de las imagenes*/
-  ul, ol {
-    list-style: none;
-  }
+ul, ol {
+  list-style: none;
+}
 
-  .A-que ul {
+.A-que ul {
     display: flex;
     flex-wrap: wrap;
-  }
-  .A-que li {
+}
+.A-que li {
     flex-basis: calc(0% - 0px);
     margin: 0 13px;
-  }
+}
   
 .A-que {
     margin-left: 10px; 
     margin-right: 10px; 
- }
+}
 
 
 .nuestro-equipo ul {
@@ -96,3 +123,4 @@ li{
   margin-left: 10px; 
   margin-right: 10px; 
 }
+
