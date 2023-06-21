@@ -17,6 +17,11 @@ body{
   border-bottom: 2px solid blue; /* Agrega una línea azul de 2 píxeles debajo del enlace */
 }
 
+.fondo-negro:hover{
+  text-decoration: none; /* Remueve la línea de debajo del enlace */
+  border-bottom: 2px solid blue; /* Agrega una línea azul de 2 píxeles debajo del enlace */
+}
+
 .linkbarra a {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -108,7 +113,6 @@ ul, ol {
     margin-left: 10px; 
     margin-right: 10px; 
 }
-
 
 .nuestro-equipo ul {
   display: flex;
