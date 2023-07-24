@@ -1,43 +1,42 @@
-body{
-  color:#212121;
-  font-family:’Roboto’,sans-serif;
-  font-family:’Raleway’,sans-serif;
-  }
-  
-.barra{
-  display:flex;
-  padding:24px;
-  justify-content:space-between;
-  align-items:center;
+body {
+  color: #212121;
+  font-family: 'Roboto', sans-serif;
 }
 
-
-.linkbarra:hover{
-  text-decoration: none; /* Remueve la línea de debajo del enlace */
-  border-bottom: 2px solid blue; /* Agrega una línea azul de 2 píxeles debajo del enlace */
+.barra {
+  display: flex;
+  padding: 24px;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.fondo-negro:hover{
-  text-decoration: none; /* Remueve la línea de debajo del enlace */
-  border-bottom: 2px solid blue; /* Agrega una línea azul de 2 píxeles debajo del enlace */
-}
-
-.linkbarra a {
+/* Estilos para los botones en lugar de enlaces */
+.barra button {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 16.41px;
   letter-spacing: 2%;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  color: #2196F3;
+  cursor: pointer;
 }
-  
-.logo{
-  color:#2196F3;
-  font-family:Raleway;
-  font-size:26px;
-  font-weight:700;
-  line-height:1.2;
-  text-decoration:none;
-  margin-right:93px;
+
+/* Cambio de color al pasar el cursor sobre los botones */
+.barra button:hover {
+  color: #1565C0;
+}
+
+.logo {
+  color: #2196F3;
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+  margin-right: 93px;
 }
 
 .fondo-negro {
@@ -61,7 +60,7 @@ footer {
   text-align: left;
 }
 
-footer a{
+footer a {
   color: #FFFFFF;
   font-family: Roboto;
   font-weight: 400;
@@ -69,55 +68,38 @@ footer a{
   line-height: 24px;
   letter-spacing: 3%;
   margin-top: 0;
+  text-decoration: none; /* Removemos la línea de subrayado en los enlaces */
 }
 
-/*nav {
-  display: flex;
-  align-items: center;
-}*/
-
-/*nav ul{
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;s
-}*/
-
-/*#mi{
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;s
-}}*/
-
-li{
-  margin-right: 10px;
+/* Cambio de color al pasar el cursor sobre los enlaces */
+footer a:hover {
+  color: #1565C0;
 }
 
-
-/*Para quitar las viñetas de las imagenes*/
 ul, ol {
   list-style: none;
 }
 
 .A-que ul {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
+
 .A-que li {
-    flex-basis: calc(0% - 0px);
-    margin: 0 13px;
+  flex-basis: calc(0% - 0px);
+  margin: 0 13px;
 }
-  
+
 .A-que {
-    margin-left: 10px; 
-    margin-right: 10px; 
+  margin-left: 10px; 
+  margin-right: 10px; 
 }
 
 .nuestro-equipo ul {
   display: flex;
   flex-wrap: wrap;
 }
+
 .nuestro-equipo li {
   flex-basis: calc(0% - 0px);
   margin: 0 13px;
@@ -127,4 +109,3 @@ ul, ol {
   margin-left: 10px; 
   margin-right: 10px; 
 }
-
