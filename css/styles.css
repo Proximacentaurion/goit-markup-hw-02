@@ -10,6 +10,15 @@ body {
   align-items: center;
 }
 
+/* Para eliminar el subrayado en los enlaces de la barra de navegación */
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-link:hover{
+  color: #1565C0;
+}
+
 /* Estilos para los botones en lugar de enlaces */
 .barra button {
   font-family: 'Roboto', sans-serif;
@@ -23,6 +32,7 @@ body {
   color: #2196F3;
   cursor: pointer;
 }
+
 
 /* Cambio de color al pasar el cursor sobre los botones */
 .barra button:hover {
