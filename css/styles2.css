@@ -1,3 +1,4 @@
+
 body {
   color: #212121;
   font-family: 'Roboto', sans-serif;
@@ -90,7 +91,6 @@ ul {
 .barra button:hover {
   color: #1565C0;
 }
-
 /*<!---------Sección con fondo negro---------->*/
 .fondo-negro {
   background-color: #2F303A;
@@ -108,47 +108,30 @@ ul {
   text-transform: uppercase;
 }
 
-/*<!---------Sección con fondo negro---------->*/
+/*<!---------Sección imganenes portafolio---------->*/
 
-.A-que {
+.imagenes-portafolio {
   margin-left: 10px; 
   margin-right: 10px; 
 }
 
-.A-que ul {
+.imagenes-portafolio ul {
   display: flex;
   flex-wrap: wrap;
 }
 
-.A-que li {
-  flex-basis: calc(0% - 0px);
-  margin: 0 13px;
-}
-
-/*<!---------Sección con fondo negro---------->*/
-
-.nuestro-equipo {
-  margin-left: 10px; 
-  margin-right: 10px; 
-}
-
-.nuestro-equipo ul {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.nuestro-equipo li {
+.imagenes-portafolio li {
   flex-basis: calc(0% - 0px);
   margin: 0 13px;
 }
 
 /*<!------Footer de la página--------->*/
-footer{
+footer {
   background-color: #2F303A;
   text-align: left;
 }
 
-footer address {
+footer a {
   color: #FFFFFF;
   font-family: Roboto;
   font-weight: 400;
@@ -160,10 +143,9 @@ footer address {
 }
 
 /* Cambio de color al pasar el cursor sobre los enlaces */
-footer address:hover {
+footer a:hover {
   color: #1565C0;
 }
-
 .logo {
   color: #2196F3;
   font-family: 'Raleway', sans-serif;
